@@ -1,0 +1,171 @@
+.header-color {
+  background: black;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, black, black);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, black, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*LANDING PAGE */
+
+.landingpage-grid {
+  background-image: url('img/landingpace-pic.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: auto;
+  min-height:641px;
+}
+.intro-text {
+  color: black;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 28%;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.typewriter{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:black; }
+}
+
+/*ABOUT ME PAGE*/
+.aboutme-grid {
+  background-image: url('img/snoopy-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: auto;
+  min-height:641px;
+  margin:5%;
+}
+.aboutme-text {
+  color: black;
+  margin: 5%;
+  left: 10%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*CONTACT PAGE*/
+.contact-grid {
+  background-image: url('img/butterfly-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: auto;
+  min-height:641px;
+}
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin:auto;
+  vertical-align: text-top;
+}
+.contact-links i {
+  color: black;
+  padding: 5px;
+  font-size: 4em;
+}
+
+.contact-text {
+  color: black;
+  margin: 8%;
+  text-align: center; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*PROJECT PAGE*/
+.projectsbackground-grid {
+  background-image: url('img/laptop-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: auto;
+  min-height:641px;
+}
+
+.project-border {
+  border: 1px;
+  width: 450px;
+  padding: 10px;
+  height: 475px;
+  margin:18%;
+}
+.project-largeborder {
+  border: 1px;
+  width: 450px;
+  padding: 10px;
+  height: 657px;
+}
+
+
+/*EXPERIENCE PAGE*/
+.experience-grid {
+  background-image: url('img/donut-background.png');
+  background-size: cover;
+  min-width: auto;
+  min-height: 640px;
+}
+.right-text {
+  margin-top: 10%;
+  margin-right: 18%;
+}
+.left-text {
+  margin-top: 10%;
+  margin-left: 18%;
+}
+.text-border {
+  border: 1px;
+  width: 510px;
+  padding: 10px;
+  height: 280px;
+}
+
+.button-type {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.my-font {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.font-large {
+  font-size: 25px;
+  line-height: 25px;
+}
+.font-medium {
+  font-size: 20px;
+  line-height: 20px;
+}
+.font-xxlarge {
+  font-size: 40px;
+  line-height: 45px;
+}
+.font-xlarge {
+  font-size: 35px;
+  line-height: 40px;
+}
